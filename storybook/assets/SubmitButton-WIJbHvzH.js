@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";/* empty css             */function o({children:t}){return e.jsx("button",{className:"submit-button",type:"submit",children:t})}o.__docgenInfo={description:"",methods:[],displayName:"SubmitButton",props:{children:{required:!0,tsType:{name:"ReactNode"},description:""}}};export{o as S};

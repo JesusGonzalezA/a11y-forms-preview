@@ -1,0 +1,9 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";import{r as p}from"./index-kmstmYw1.js";function c({defaultValue:r,hint:n,inputMode:l,label:s,max:m,min:u,name:d,step:o,type:i}){const t=p.useId(),a=`${t}-hint`;return e.jsxs("div",{className:`native-field native-field--${i}`,children:[e.jsx("label",{className:"native-field__label",htmlFor:t,children:s}),n?e.jsx("p",{className:"native-field__hint",id:a,children:n}):null,e.jsx("input",{"aria-describedby":n?a:void 0,className:"native-field__input",defaultValue:r,id:t,inputMode:l,max:m,min:u,name:d,step:o,type:i})]})}c.__docgenInfo={description:"",methods:[],displayName:"NativeField",props:{defaultValue:{required:!1,tsType:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}]},description:""},hint:{required:!1,tsType:{name:"string"},description:""},inputMode:{required:!1,tsType:{name:"HTMLAttributes['inputMode']",raw:"HTMLAttributes<HTMLInputElement>['inputMode']"},description:""},label:{required:!0,tsType:{name:"string"},description:""},max:{required:!1,tsType:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}]},description:""},min:{required:!1,tsType:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}]},description:""},name:{required:!0,tsType:{name:"string"},description:""},step:{required:!1,tsType:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}]},description:""},type:{required:!0,tsType:{name:"union",raw:`| 'number'
+| 'range'
+| 'date'
+| 'time'
+| 'month'
+| 'week'
+| 'datetime-local'
+| 'color'
+| 'text'`,elements:[{name:"literal",value:"'number'"},{name:"literal",value:"'range'"},{name:"literal",value:"'date'"},{name:"literal",value:"'time'"},{name:"literal",value:"'month'"},{name:"literal",value:"'week'"},{name:"literal",value:"'datetime-local'"},{name:"literal",value:"'color'"},{name:"literal",value:"'text'"}]},description:""}}};export{c as N};

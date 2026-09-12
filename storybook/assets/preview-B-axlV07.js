@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";const i={decorators:[r=>e.jsx("div",{style:{inlineSize:"100%",marginInline:"auto",maxInlineSize:"24rem"},children:e.jsx(r,{})})],parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}}};export{i as default};
